@@ -11,7 +11,7 @@ body {
   color: #000;
 }
 .row-wrapper {
-  border-top: 1px solid #000;
+  border-top: 2px solid #e5e5e5;
   padding-bottom: 3px;
 }
 .address {
@@ -168,7 +168,9 @@ body {
     text-align: center;
     padding: 20px;
 }
-
+.softwareDetails {
+  margin-bottom: 30px;
+}
 #client-testimonial-carousel {min-height: 200px;}
 
 .clientImg {
@@ -177,6 +179,9 @@ body {
 }
 .controlIcon {
   color: #000;
+}
+.prevIcon {
+  margin-top: -6px;
 }
 .clientImgWrap {
   margin-top: -20px;
@@ -194,12 +199,106 @@ blockquote {
 .carousel-indicators li {
   background: #000 !important;
 }
-
-.teamImg {
+.clientWrapper {
+  width: 300px;
+}
+.clients {
+  align-items: flex-start;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0 10px;
+}
+.companies_logo-box, .service-box {
+  align-items: center;
+  border-radius: 3px;
+  box-shadow: 0 0 15px rgba(136,153,166,.2),0 0 3px 1px rgba(136,153,166,.15);
+  display: flex;
+  flex-basis: calc(33.33333% - 20px);
+  flex-grow: 0;
+  flex-shrink: 0;
+  height: 70px;
+  justify-content: center;
+  margin: 0 0 30px;
+  padding: 0 25px;
+}
+.footerbox {
+  align-items: center;
+  display: flex;
+  flex-basis: calc(25.333% - 20px);
+  flex-grow: 0;
+  flex-shrink: 0;
+  justify-content: center;
+  margin: 0 0 30px;
+  padding: 0 25px;
+}
+.teambox {
+  align-items: center;
+  display: flex;
+  flex-basis: calc(25.333% - 20px);
+  flex-grow: 0;
+  flex-shrink: 0;
+  justify-content: center;
+  margin: 0 0 30px;
+  padding: 0 25px;
+}
+.companies__logo {
+  display: inline-block;
+  height: 100%;
+  max-height: 40px;
+  max-width: 100%;
+  width: auto;
+}
+.serviceList {
+  text-align: center;
+  align-items: center;
+}
+.companies__logo.small {
+  height: 30px;
+}
+.teamImgWrapper img {
   width: 200px;
   height: 200ppx;
   border-radius: 3px;
 }
 .title {
   text-align: center;
+}
+.parent {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.infoDetails {
+  font-size: 14px;
+}
+.box {
+  width: 25%;
+  box-sizing: border-box;
+}
+.carousel-control-next, .carousel-control-prev {
+  width: auto !important;
+}
+.footerInfo {
+  font-weight: 200;
+  margin-top: 10px;
+  font-size: 13px;
+}
+.footerInfo li {
+  display: block;
+  margin: 5px;
+}
+.footer-bottom {
+  margin-top: 20px;
+}
+.box span {
+  font-size: 13px;
+}
+.herdrosocials {
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+}
+.herdrosocials li {
+  display: inline-block;
 }

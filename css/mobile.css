@@ -1,3 +1,12 @@
+@media only screen and (max-width: 800px) {
+    .forTabs {
+        display: block;
+      }
+      .forWeb {
+        display: none;
+      }
+}
+
 @media only screen and (max-width: 768px) {
     .forTabs {
         display: block;
@@ -7,44 +16,109 @@
       }
 }
 
+
 @media only screen and (max-width: 425px) {
     .content {
         margin-bottom: 20px;
     }
+    .content p {
+        font-size: 13px;
+        margin-bottom: 30px !important;
+    }
+    .contactBtn, .img-wrap {
+        margin-left: 0;
+    }
+    .infoDetails {
+        margin-top: 15px;
+    }
+    .headings {
+        font-size: 15px;
+    }
     .colleagueWrap img {
         width: 300px;
         height: 250px;
-        margin-left: 40px;
     }
     .aboutImg img {
         width: 300px;
-        margin-left: 30px;
     }
     .card {
         width: 18rem !important;
-        margin-left: 40px;
+        margin-left: 55px;
+    }
+    .card-title {
+        font-size: 14px;
+    }
+    .card-text {
+        font-size: 13px;
     }
     .mobileStyle {
         margin-bottom: 20px;
     }
     .teamImgWrap {
-        margin-left: 100px;
+        margin-left: 50px;
     }
-    .title {
-        text-align: left;
+    .colleagueWrap img {
+        margin-left: 50px;
+        margin-bottom: 10px;
     }
-    .img-wrap {
-        margin-left: 40px;
+    .teamImgWrapper {
+        margin-left: 30px;
     }
-    .contactBtn {
-        margin-left: 40px;
+    .benefits {
+        margin-top: 10px;
     }
+    .testimonials {
+        font-size: 13px;
+    }
+    .HerdroServices {
+        padding: 0;
+    }
+    .parent {
+        display: unset;
+    }
+    .carousel-indicators {
+        display: none !important;
+    }
+    .testimonialwrapper {
+        padding-top: 0 !important;
+    }
+    .font-weight-bold {
+        font-weight: 200 !important;
+    }
+    .forTabs {
+        display: none;
+      }
+      .forWeb {
+        display: block;
+      }
+      .herdrosocials li {
+         display: block;
+      }
+      .clientWrapper {
+          margin-left: 30px;
+      }
 }
 
 
 @media only screen and (max-width: 375px) {
+    .clientWrapper {
+        margin-left: 0;
+    }
     .content {
         margin-bottom: 20px;
+    }
+    .content p {
+        font-size: 13px;
+        margin-bottom: 30px !important;
+    }
+    .contactBtn, .img-wrap {
+        margin-left: 0;
+    }
+    .infoDetails {
+        margin-top: 15px;
+    }
+    .headings {
+        font-size: 15px;
     }
     .colleagueWrap img {
         width: 300px;
@@ -52,11 +126,16 @@
     }
     .aboutImg img {
         width: 300px;
-
     }
     .card {
         width: 18rem !important;
-        margin-left: 20px;
+        margin-left: 30px;
+    }
+    .card-title {
+        font-size: 14px;
+    }
+    .card-text {
+        font-size: 13px;
     }
     .mobileStyle {
         margin-bottom: 20px;
@@ -64,14 +143,67 @@
     .teamImgWrap {
         margin-left: 50px;
     }
-    .title {
-        text-align: left;
+    .colleagueWrap img {
+        margin-left: 20px;
+        margin-bottom: 10px;
     }
+    .teamImgWrapper {
+        margin-left: 30px;
+    }
+    .benefits {
+        margin-top: 10px;
+    }
+    .testimonials {
+        font-size: 13px;
+    }
+    .HerdroServices {
+        padding: 0;
+    }
+    .parent {
+        display: unset;
+    }
+    .carousel-indicators {
+        display: none !important;
+    }
+    .testimonialwrapper {
+        padding-top: 0 !important;
+    }
+    .font-weight-bold {
+        font-weight: 200 !important;
+    }
+    .forTabs {
+        display: none;
+      }
+      .forWeb {
+        display: block;
+      }
+      .herdrosocials li {
+         display: block;
+      }
 }
 
 @media only screen and (max-width: 360px) {
+    .clientWrapper {
+        margin-left: 0;
+    }
+    .teamImgWrapper {
+        margin-left: 0;
+    }
     .content {
         margin-bottom: 20px;
+    }
+    .content p {
+        font-size: 13px;
+        margin-bottom: 30px !important;
+    }
+    .contactBtn, .img-wrap {
+        margin-left: 0;
+    }
+    .infoDetails {
+        margin-top: 15px;
+    }
+    .headings {
+        font-size: 15px;
     }
     .colleagueWrap img {
         width: 300px;
@@ -82,7 +214,13 @@
     }
     .card {
         width: 18rem !important;
-        margin-left: 20px;
+        margin-left: 0;
+    }
+    .card-title {
+        font-size: 14px;
+    }
+    .card-text {
+        font-size: 13px;
     }
     .mobileStyle {
         margin-bottom: 20px;
@@ -90,15 +228,65 @@
     .teamImgWrap {
         margin-left: 50px;
     }
-    .title {
-        text-align: left;
+    .colleagueWrap img {
+        margin-left: 0;
+        margin-bottom: 10px;
     }
+    .benefits {
+        margin-top: 10px;
+    }
+    .testimonials {
+        font-size: 13px;
+    }
+    .HerdroServices {
+        padding: 0;
+    }
+    .parent {
+        display: unset;
+    }
+    .carousel-indicators {
+        display: none !important;
+    }
+    .testimonialwrapper {
+        padding-top: 0 !important;
+    }
+    .font-weight-bold {
+        font-weight: 200 !important;
+    }
+    .forTabs {
+        display: none;
+      }
+      .forWeb {
+        display: block;
+      }
+      .herdrosocials li {
+         display: block;
+      }
 }
 
 
 @media only screen and (max-width: 320px) {
+    .clientWrapper {
+        margin-left: 0;
+    }
+    .teamImgWrapper {
+        margin-left: 0;
+    }
     .content {
         margin-bottom: 20px;
+    }
+    .content p {
+        font-size: 13px;
+        margin-bottom: 30px !important;
+    }
+    .contactBtn, .img-wrap {
+        margin-left: 0;
+    }
+    .infoDetails {
+        margin-top: 15px;
+    }
+    .headings {
+        font-size: 15px;
     }
     .colleagueWrap img {
         width: 300px;
@@ -109,11 +297,49 @@
     }
     .card {
         width: 18rem !important;
+        margin-left: 0;
+    }
+    .card-title {
+        font-size: 14px;
+    }
+    .card-text {
+        font-size: 13px;
     }
     .mobileStyle {
         margin-bottom: 20px;
     }
     .teamImgWrap {
-        margin-left: 50px;
+        margin-left: 65px;
     }
+    .colleagueWrap img {
+        margin-left: 0;
+        margin-bottom: 10px;
+    }
+    .benefits {
+        margin-top: 10px;
+    }
+    .testimonials {
+        font-size: 13px;
+    }
+    .parent {
+        display: unset;
+    }
+    .carousel-indicators {
+        display: none !important;
+    }
+    .testimonialwrapper {
+        padding-top: 0 !important;
+    }
+    .font-weight-bold {
+        font-weight: 200 !important;
+    }
+    .forTabs {
+        display: none;
+      }
+      .forWeb {
+        display: block;
+      }
+      .herdrosocials li {
+         display: block;
+      }
 }
