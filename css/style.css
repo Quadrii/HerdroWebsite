@@ -7,6 +7,10 @@
 body {
     font-family: 'Poppins', sans-serif;
 }
+.animated {
+  animation-duration: 2.5s;
+  animation-iteration-count: infinite;
+}
 .nav-link {
   color: #000;
 }
@@ -32,7 +36,7 @@ body {
   margin: 5px;
   font-size: 13px;
 }
-.HerdroSocials {
+/* .HerdroSocials {
   border-top: 1px solid #000;
   border-bottom: 1px solid #000;
   text-align: center;
@@ -40,7 +44,7 @@ body {
 .HerdroSocials li {
   display: inline-block;
   margin: 5px;
-}
+} */
 .navbar {
     background-color: #f0f4fb;
     box-shadow: 0 10px 30px 0 rgb(33,33,33,0.15);
@@ -74,7 +78,7 @@ body {
     background-color: #4e73df;
     color: #fff;
     padding: 12px 30px;
-    border-radius: 2px;
+    border-radius: 5px;
 }
 .contactBtn:hover {
     color: #fff;
@@ -152,7 +156,7 @@ body {
 .text p {
     width:100%;
     float:left;
-    font-size: 12px;
+    font-size: 14px;
 }
 .about-Herdro {
     line-height: 25px;
@@ -201,6 +205,9 @@ blockquote {
 }
 .clientWrapper {
   width: 300px;
+}
+.zeroMarginBottom {
+  margin-bottom: 0 !important;
 }
 .clients {
   align-items: flex-start;
@@ -270,13 +277,14 @@ blockquote {
   flex-direction: row;
   flex-wrap: wrap;
 }
-.infoDetails {
-  font-size: 14px;
-}
 .box {
   width: 25%;
   box-sizing: border-box;
 }
+.infoDetails {
+  font-size: 14px;
+}
+
 .carousel-control-next, .carousel-control-prev {
   width: auto !important;
 }
@@ -298,7 +306,20 @@ blockquote {
 .herdrosocials {
   border-top: 1px solid #000;
   border-bottom: 1px solid #000;
+  text-align: center;
 }
 .herdrosocials li {
   display: inline-block;
+  margin: 5px;
+}
+.icon {
+  font-size: 1.0em;
+  margin-right: 10px;
+  padding-top: 9px;
+}
+.icons {
+  font-size: 1.0em;
+  vertical-align: middle;
+  margin-right: 10px;
+  padding-top: 1px;
 }
